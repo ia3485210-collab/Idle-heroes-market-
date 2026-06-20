@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f1115;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #151923;
+}
+
+.top-bar {
+  text-align: center;
+  margin: 15px;
+}
+
+.top-bar input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1c2230;
+  color: white;
+}
+
+.filters {
+  text-align: center;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #00ff88;
+  border: none;
+  color: #0f1115;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: #161b26;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #2a2f3a;
+}
+
+button {
+  margin-top: 6px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #00ff88;
+  color: #0f1115;
+  cursor: pointer;
+}
+
+.discord {
+  font-size: 13px;
+  color: #aaa;
+}

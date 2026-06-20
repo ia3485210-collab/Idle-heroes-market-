@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idle Heroes Marketplace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Idle Heroes Marketplace</h1>
+  <p>Buy & Sell Accounts Safely</p>
+</header>
+
+<section class="top-bar">
+  <input type="text" id="searchBox" placeholder="Search VIP, server, price...">
+</section>
+
+<section class="filters">
+  <button onclick="filterPlatform('all')">All</button>
+  <button onclick="filterPlatform('android')">Android</button>
+  <button onclick="filterPlatform('ios')">iOS</button>
+</section>
+
+<section>
+  <h2>⭐ Featured Accounts</h2>
+
+  <div class="grid">
+
+    <div class="card" data-platform="android">
+      <h3>VIP 10 Account</h3>
+      <p>Server: S1024</p>
+      <p>Power: 120M</p>
+      <p>💰 $150</p>
+      <p>📱 Android</p>
+
+      <p class="discord">Discord: Why_choice</p>
+
+      <div class="buttons">
+        <button onclick="copyDiscord('Why_choice')">Copy</button>
+        <button onclick="openDiscord('Why_choice')">Open Discord</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Idle Heroes Marketplace</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
